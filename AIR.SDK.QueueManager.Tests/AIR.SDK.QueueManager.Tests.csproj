@@ -1,0 +1,32 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+
+    <IsPackable>false</IsPackable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AIR.API.NetStandard.Core" Version="1.0.0" />
+    <PackageReference Include="AIR.SDK.NetStandard.QueueManager" Version="1.0.0" />
+    <PackageReference Include="AIR.SDK.NetStandard.StorageManager" Version="1.0.0" />
+    <PackageReference Include="Autofac" Version="4.8.1" />
+    <PackageReference Include="AWSSDK.S3" Version="3.3.31.5" />
+    <PackageReference Include="AWSSDK.SQS" Version="3.3.3.44" />
+    <PackageReference Include="Microsoft.Extensions.Logging" Version="2.2.0" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="15.9.0" />
+    <PackageReference Include="NSubstitute" Version="3.1.0" />
+    <PackageReference Include="System.Collections" Version="4.3.0" />
+    <PackageReference Include="xunit" Version="2.4.1" />
+    <PackageReference Include="xunit.runner.visualstudio" Version="2.4.1">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\AIR.SDK.Core\AIR.API.NetStandard.Core.csproj" />
+    <ProjectReference Include="..\AIR.SDK.NetCore.QueueManager\AIR.SDK.NetStandard.QueueManager.csproj" />
+  </ItemGroup>
+
+</Project>

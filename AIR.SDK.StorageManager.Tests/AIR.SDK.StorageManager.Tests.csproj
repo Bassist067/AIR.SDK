@@ -1,0 +1,31 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+
+    <IsPackable>false</IsPackable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoFixture.Xunit2" Version="4.6.0" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="15.9.0" />
+    <PackageReference Include="NSubstitute" Version="3.1.0" />
+    <PackageReference Include="xunit" Version="2.4.1" />
+    <PackageReference Include="xunit.runner.visualstudio" Version="2.4.1">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\AIR.SDK.Core\AIR.API.NetStandard.Core.csproj" />
+    <ProjectReference Include="..\AIR.SDK.NetCore.StorageManager\AIR.SDK.NetStandard.StorageManager.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="AWSSDK.S3">
+      <HintPath>C:\Users\alexander.danilov\.nuget\packages\awssdk.s3\3.3.31.5\lib\netstandard1.3\AWSSDK.S3.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
