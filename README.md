@@ -1,8 +1,5 @@
 # AIR.SDK
 ---------------------------------------
-
-{Description}
-
 See the [change log](CHANGELOG.md) for changes and road map.
 
 This solution is for people who work with the AWS .NET SDK. These are our helper libraries to simplify working with AWS SQS, AWS S3 and AWS SWF.
