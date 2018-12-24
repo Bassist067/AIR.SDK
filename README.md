@@ -1,12 +1,4 @@
-# {Name}
-
-<!-- Replace this badge with your own-->
-[![Build status](https://ci.appveyor.com/api/projects/status/hv6uyc059rqbc6fj?svg=true)](https://ci.appveyor.com/project/madskristensen/extensibilitytools)
-
-<!-- Update the VS Gallery link after you upload the VSIX-->
-Download this extension from the [VS Gallery](https://visualstudiogallery.msdn.microsoft.com/[GuidFromGallery])
-or get the [CI build](http://vsixgallery.com/extension/{ID}/).
-
+# AIR.SDK
 ---------------------------------------
 
 {Description}
@@ -22,23 +14,17 @@ This solution is for people who work with the AWS .NET SDK. These are our helper
 - Workflow Manager
 
 ### Queue Manager
-Describe feature 1. Add screenshots/code samples etc.
+Helps with the .NET SQS library. Alllows subscribing to the queues.
 
 ### Storage Manager
-Describe feature 2. Add screenshots/code samples etc.
+Helps with the .NET S3 library. Just a standard wrapper.
 
 #### Workflow Manager
-Describe sub feature. Add screenshots/code samples etc.
+Allows to ease the pain with using .NET SWF library. Provides abstraction level above the SWF entities, so you will be able to operate with the workflows and activities. Please note this is a port from .NET 4.5, so some tests are still broken.
 
 ## Contribute
 Check out the [contribution guidelines](CONTRIBUTING.md)
 if you want to contribute to this project.
-
-For cloning and building this project yourself, make sure
-to install the
-[Extensibility Tools 2015](https://visualstudiogallery.msdn.microsoft.com/ab39a092-1343-46e2-b0f1-6a3f91155aa6)
-extension for Visual Studio which enables some features
-used by this project.
 
 ## License
 [Apache 2.0](LICENSE)
